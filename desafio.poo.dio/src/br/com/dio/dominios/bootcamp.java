@@ -1,3 +1,5 @@
+package br.com.dio.dominios;
+
 import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
@@ -30,6 +32,22 @@ public class bootcamp {
 
     public LocalDate getDataFinal() {
         return dataFinal;
+    }
+
+    public Set<devs> getDevsInscritos() {
+        return devsInscritos;
+    }
+
+    public void setDevsInscritos(Set<devs> devsInscritos) {
+        this.devsInscritos = devsInscritos;
+    }
+
+    public Set<conteudos> getConteudos() {
+        return conteudos;
+    }
+
+    public void setConteudos(Set<conteudos> conteudos) {
+        this.conteudos = conteudos;
     }
 
     

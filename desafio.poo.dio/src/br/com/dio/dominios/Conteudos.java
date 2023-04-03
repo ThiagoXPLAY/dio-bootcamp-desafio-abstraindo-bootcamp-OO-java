@@ -1,5 +1,5 @@
 package br.com.dio.dominios;
 
-public class conteudos{
+public class Conteudos{
     
 }

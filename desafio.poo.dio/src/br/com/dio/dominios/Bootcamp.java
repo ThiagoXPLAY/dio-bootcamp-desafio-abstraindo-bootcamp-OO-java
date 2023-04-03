@@ -5,15 +5,15 @@ import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class bootcamp {
+public class Bootcamp {
     private String nome;
     private String descricao;
     private LocalDate dataInicial = LocalDate.now();
     private LocalDate dataFinal = dataInicial.plusDays(45);
-    private Set<devs> devsInscritos = new HashSet<>();
-    private Set<conteudos> conteudos = new LinkedHashSet<>();
+    private Set<Devs> devsInscritos = new HashSet<>();
+    private Set<Conteudos> conteudos = new LinkedHashSet<>();
 
-    public bootcamp(String nome, String descricao){
+    public Bootcamp(String nome, String descricao){
         this.nome = nome;
         this.descricao = descricao;
     }
@@ -34,19 +34,19 @@ public class bootcamp {
         return dataFinal;
     }
 
-    public Set<devs> getDevsInscritos() {
+    public Set<Devs> getDevsInscritos() {
         return devsInscritos;
     }
 
-    public void setDevsInscritos(Set<devs> devsInscritos) {
+    public void setDevsInscritos(Set<Devs> devsInscritos) {
         this.devsInscritos = devsInscritos;
     }
 
-    public Set<conteudos> getConteudos() {
+    public Set<Conteudos> getConteudos() {
         return conteudos;
     }
 
-    public void setConteudos(Set<conteudos> conteudos) {
+    public void setConteudos(Set<Conteudos> conteudos) {
         this.conteudos = conteudos;
     }
 
